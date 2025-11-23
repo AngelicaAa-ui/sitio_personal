@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Mi Sitio Personal</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+            <div class="container">
+                <img class="me-2" src="imagenes/imagen1.png" alt="Logo del Sitio">
+                <h5>
+                    <strong>Mi Sitio Personal</strong>
+                </h5>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto fw-bold">
+                        <li class="nav-item"> <a class="nav-link fw-bold" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link fw-bold" href="contacto.php">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-4">
+        <div class="row">
+            <aside class="col-md-3 sidebar">
+                <section>
+                    <h3 class="titulo">Hobbies</h3>
+                    <ul>
+                        <li>Hacer Manualidades</li>
+                        <li>Dibujar</li>
+                        <li>Leer Novelas/Libros</li>
+                        <li>Escuchar Música</li>
+                        <li>Ver Series</li>
+                        <li>Pasar tiempo con mis mascotas</li>
+                    </ul>
+                </section>
+
+                <section class="card-custom mt-4 p-3">
+                    <h3 class="titulo">Estudios Académicos</h3>
+                    <ul>
+                        <li>Bachiller en Ciencias</li>
+                        <li>Curso de Programación en Java</li>
+                        <li>Actualmente estudiando una Ingeniería en TI</li>
+                    </ul>
+                </section>
+            </aside>
+
+            <main class="col-md-9">
+                <section>
+                    <h2 class="titulo">Biografía Personal</h2>
+                    <p>
+                        ¡Mucho Gusto! Mi nombre completo es Angélica María Agudelo García, tengo 19 años pero 
+                        estoy próxima a cumplir 20 el siguiente enero. Nací en la ciudad de Ibarra,
+                        un lugar muy lindo y lleno de vida donde he tenido el gusto de conocer a la mayoría de 
+                        personas presentes en mi vida además de mi familia.
+                        Me apasiona mucho el aprender cosas nuevas, aunque a veces suelo frustrarme con 
+                        facilidad cuando no comprendo algo a la primera.
+                        Mi objetivo a futuro es volverme una gran profesional, que pueda ofrecer un servicio de calidad 
+                        a través de soluciones innovadoras que revolucionen el mundo digital.
+                    </p>
+                </section>
+
+                <section class="mt-4">
+                    <h2 class="titulo">Mi Foto</h2>
+                    <img class="img-fluid rounded shadow" src="imagenes/imagen2.jpeg" alt="Foto Personal">
+                </section>
+
+                <section class="row mt-5">
+                    <div class="col-md-6">
+                        <div class="card-custom card-hover">
+                            <h4 class="titulo">Mi Ciudad: Ibarra- Imbabura</h4>
+                            <p>
+                                Ibarra, la ciudad a la que siempre se vuelve. Mi lugar de nacimiento, 
+                                un sitio lleno de lugares preciosos con diversos paisajes, momentos increíbles, platos típicos deliciosos
+                                y sobre todo...personas inolvidables.
+                            </p>
+
+                            <div id="carouselCiudad" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100 rounded" src="imagenes/imagenCiudad1.jpg" alt="Imagen 1 de la Ciudad">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100 rounded" src="imagenes/imagenCiudad2.jpg" alt="Imagen 2 de la Ciudad">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100 rounded" src="imagenes/imagenCiudad3.jpg" alt="Imagen 3 de la Ciudad">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100 rounded" src="imagenes/imagenCiudad4.jpg" alt="Imagen 4 de la Ciudad">
+                                    </div>
+                                </div>
+
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselCiudad" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+
+                                <button class="carousel-control-next" type="button" type="button" data-bs-target="#carouselCiudad" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card-custom card-hover">
+                            <h4 class="titulo">Mis Mascotas</h4>
+                            <p>
+                                Los pequeños seres que me han acompañado en cada etapa nueva de mi vida,
+                                me complace mostrarles a mis dulces angeles de 4 patas: Gigi, Pulgarcita, Jae y Jacob.
+                            </p>
+
+                            <div id="carouselMascotas" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100 rounded" src="imagenes/imagenMascota1.jpeg" alt="Imagen 1 de Mis Mascotas">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100 rounded" src="imagenes/imagenMascota2.jpeg" alt="Imagen 2 de Mis Mascotas">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100 rounded" src="imagenes/imagenMascota3.jpeg" alt="Imagen 3 de Mis Mascotas">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100 rounded" src="imagenes/imagenMascota4.jpeg" alt="Imagen 4 de Mis Mascotas">
+                                    </div>
+                                </div>
+
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselMascotas" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselMascotas" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+    <footer class="footer-custom text-center text-dark py-3 mt-5">
+        <p><strong>@Aagudelo - Mi Sitio Personal 2025</strong></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Lato:wght@300;400;700&display=swap');
+
+body{
+    background-color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    padding-top: 80px;
+}
+
+p{
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+.container h5{
+    margin-bottom: 0%;
+}
+
+.me-2{
+    width: 28px;
+    height: 28px;
+}
+
+.titulo{
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    color: #d7829d;
+}
+
+.navbar-custom{
+    background: linear-gradient(to right, #ffd8e8, #fff2b3);
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
+}
+
+.nav-link {
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    background-color: white;
+    color: #d46a92 !important;
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sidebar{
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card-custom{
+    background: linear-gradient(to bottom, #ffe9f1, #fff6cc);
+    border-radius: 15px;
+    padding: 18px;
+    box-shadow: 0 3px 9px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
+
+.row .col-md-6{
+    margin-bottom: 20px;
+}
+
+.form-card{
+    background: linear-gradient(to bottom, #ffe9f1, #fff6cc);
+    border-radius: 15px;
+    box-shadow: 0 3px 9px rgba(0,0,0,0.20);
+    padding: 30px;
+    transition: transform 0.3s ease;
+} 
+
+.form-card:hover{
+    transform: scale(1.01);
+}
+
+.form-card h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-card img{
+    width: 28px;
+    height: 28px;
+    margin-right: 8px;
+}
+
+.btn-success{
+    background-color: #e99ab6 !important;
+    border-color: #e99ab6 !important;
+    font-weight: bold;
+} 
+
+.btn-success:hover{
+    background-color: #d57895 !important;
+    border-color: #d57895 !important;
+}
+
+.footer-custom{
+    background: linear-gradient(to right, #ffd8e8, #fff2b3);
+}
+
+@media screen and (max-width: 768px){
+    main, aside, section {
+        margin-bottom: 20px !important;
+    }
+
+    .layout-wrapper{
+        gap: 20px;
+    }
+
+    .card, .tarjeta{
+        margin-bottom: 15px;
+    }
+
+    .card-body{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+}
+
+
+
